@@ -113,6 +113,11 @@ import whisper
 model = whisper.load_model(r"C:\Users\TEST\sdp\content\real-time-voice-translator\large-v3-turbo.pt")
 result = model.transcribe("example.wav",no_speech_threshold=0.6)
 ```
+### Print
+```py
+print(result)
+print(result["text"])
+```
 ### See more transcribe options
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/whisper/transcribe.py
 
