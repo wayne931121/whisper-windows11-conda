@@ -2,10 +2,15 @@
 Record at 20251022
 
 # My ENV
+## conda
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 
 (the important thing is python=3.13.0 and so on...)
-
+## windows
+- ffmpeg
+- cuda
+- cudnn
+- nvidia driver
 # My Device Info
 - Windows 11
 - Miniforge Conda
