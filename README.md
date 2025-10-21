@@ -143,3 +143,7 @@ https://github.com/openai/whisper (official)
 
 # Original README.md
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/OFFICIAL-README.md
+
+# LICENSE
+- All Code: MIT License, Copyright (c) 2022 OpenAI.
+- This README.md: Attribution 4.0 International, Copyright (c) 2025 Wayne931121.
