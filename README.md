@@ -1,5 +1,8 @@
 # Run Whisper in Windows11
 
+# Date
+Record at 20251022
+
 # My ENV
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 
