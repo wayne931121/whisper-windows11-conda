@@ -3,6 +3,8 @@
 # My ENV
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 
+(the important thing is python=3.13.0 and so on...)
+
 # My Device Info
 - Windows 11
 - Miniforge Conda
