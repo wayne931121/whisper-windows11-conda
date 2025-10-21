@@ -1,6 +1,4 @@
 # Run Whisper in Windows11
-
-# Date
 Record at 20251022
 
 # My ENV
