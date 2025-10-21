@@ -45,6 +45,9 @@ import whisper
 model = whisper.load_model(r"C:\Users\TEST\sdp\content\real-time-voice-translator\large-v3-turbo.pt")
 result = model.transcribe(wname,no_speech_threshold=0.6)
 ```
+### See more transcribe options
+https://github.com/wayne931121/whisper-windows11-conda/blob/main/whisper/transcribe.py
+
 # Download Model
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/whisper/__init__.py#L17C1-L32C2
 
