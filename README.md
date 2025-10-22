@@ -16,6 +16,37 @@ https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 - Miniforge Conda
 - CUDA 12.1 & 13.0 & 11.0
 
+# Step by Step Install Guide
+### Guide
+```sh
+conda create --prefix C:\Users\TEST\fxt1
+conda activate C:\Users\TEST\fxt1
+conda install python=3.13.0
+#pls see the official guide:
+#https://pytorch.org/get-started/locally/
+pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu130
+pip install openai-whisper==20250625
+
+#Don't forget install ffmpeg and nvidia driver and cuda in your device.
+
+#Download
+#"large-v3-turbo": 
+#    "https://openaipublic.azureedge.net/main/whisper/models/aff26ae408abcba5fbf8813c21e62b0941638c5f6eebfb145be0c9839262a19a/large-v3-turbo.pt",
+
+python
+import whisper
+model = whisper.load_model(r"C:\Users\TEST\sdp\content\real-time-voice-translator\large-v3-turbo.pt")
+file = r"C:\Users\TEST\sdp\content\real-time-voice-translator\5454116ads.wav"
+result = model.transcribe(file,no_speech_threshold=0.6,language="en")
+print(result)
+print(result["text"])
+
+# Congratulations!
+# Have a good luck!
+```
+### ENV in This Guide
+
+
 # Usage
 ## CLI
 ```sh
