@@ -3,7 +3,10 @@ Record at 20251022
 
 # My ENV
 ## conda
+### Basic
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/basicENV.yml
+### More Features
+https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 
 (the important thing is python=3.13.0 and so on...)
 ## windows
