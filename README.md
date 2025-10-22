@@ -50,6 +50,53 @@ print(result["text"])
 ### ENV in This Guide
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/basicENV.yml
 
+### Notice
+pls see the official torch install guide:
+
+https://pytorch.org/get-started/locally/
+
+In this env we use cuda 13.0
+
+make sure you install cuda 13.0 & nvidia driver & ffmpeg
+
+- If you have installed torch before, you should first uninstall then install, not direct install
+- Check you driver support cuda 13.0, or you may need update driver
+```sh
+PS C:\Users\原神\Desktop> nvidia-smi
+Wed Oct 22 15:11:03 2025
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 581.57                 Driver Version: 581.57         CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                  Driver-Model | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  NVIDIA GeForce RTX 4050 ...  WDDM  |   00000000:01:00.0 Off |                  N/A |
+| N/A   39C    P0            590W /   30W |       0MiB /   6141MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+PS C:\Users\原神\Desktop>
+```
+Make sure CUDA Version: value is at least 13.0, or you may need update driver.
+
+Verify
+```py
+import torch
+print( torch.cuda.is_available() )
+print( torch.zeros(1).cuda() )
+```
+Also See:
+https://stackoverflow.com/q/60987997/19470749
+
+
 # Usage
 ## CLI
 ```sh
