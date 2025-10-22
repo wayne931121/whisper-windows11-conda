@@ -3,7 +3,7 @@ Record at 20251022
 
 # My ENV
 ## conda
-https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
+https://github.com/wayne931121/whisper-windows11-conda/blob/main/basicENV.yml
 
 (the important thing is python=3.13.0 and so on...)
 ## windows
@@ -45,7 +45,7 @@ print(result["text"])
 # Have a good luck!
 ```
 ### ENV in This Guide
-
+https://github.com/wayne931121/whisper-windows11-conda/blob/main/basicENV.yml
 
 # Usage
 ## CLI
