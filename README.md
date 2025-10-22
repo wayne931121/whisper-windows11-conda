@@ -8,7 +8,7 @@ https://github.com/wayne931121/whisper-windows11-conda/blob/main/env.yml
 (the important thing is python=3.13.0 and so on...)
 ## windows
 - ffmpeg
-- cuda (12.1 this env using)
+- cuda (13.0 this env using)
 - cudnn
 - nvidia driver
 # My Device Info
