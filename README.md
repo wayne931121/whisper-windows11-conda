@@ -50,7 +50,7 @@ print(result["text"])
 ### ENV in This Guide
 https://github.com/wayne931121/whisper-windows11-conda/blob/main/basicENV.yml
 
-### Notice
+### Notice, If you want to use GPU
 pls see the official torch install guide:
 
 https://pytorch.org/get-started/locally/
